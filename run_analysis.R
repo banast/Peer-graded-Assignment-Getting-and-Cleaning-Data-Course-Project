@@ -42,7 +42,6 @@ names(y_dataset)[1] <- 'activity'
 #4. Appropriately label the data set with descriptive variable names
 names(subject_dataset) <- 'subject'
 all_data <- cbind(x_dataset, y_dataset, subject_dataset)
-save(all_data, file = '.\\tidy_data.txt')
 
 
 #5. From the data set in step 4, create a second, independent tidy data set with the average
